@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinar Imagens</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Combine sua Foto com a Moldura</h1>
+        <div class="upload-section">
+            <label for="userImage">Envie sua Foto:</label>
+            <input type="file" id="userImage" accept="image/*">
+        </div>
+        <button id="combineButton">Combinar Imagens</button>
+        <div class="result-section">
+            <h2>Resultado Final:</h2>
+            <canvas id="resultCanvas"></canvas>
+        </div>
+        <a id="downloadLink" download="imagem-combinada.png">Baixar Imagem</a>
+        <div class="credits">
+            <p>Desenvolvido por <a href="https://www.instagram.com/petterson_papa" target="_blank">@petterson_papa</a></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
